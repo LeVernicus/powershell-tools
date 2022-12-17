@@ -1,0 +1,1 @@
+$Comps | %{(Get-ADComputer -Identity $_).Name}

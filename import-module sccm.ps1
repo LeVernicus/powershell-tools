@@ -1,0 +1,1 @@
+import-module 'C:\Program Files (x86)\ConfigMgr\bin\ConfigurationManager.psd1'

@@ -1,0 +1,1 @@
+$RemoveComps | foreach {Remove-CMDeviceCollectionDirectMembershipRule -CollectionName "COLLECTION_NAME_HERE" -ResourceID (Get-CMDevice -Name $_).ResourceID}

@@ -1,0 +1,1 @@
+Get-WmiObject -class win32_userprofile | ?{(!($_.Special)) -and (($_.LocalPath -ne 'C:\Users\slcsduser'))} | Remove-WmiObject
